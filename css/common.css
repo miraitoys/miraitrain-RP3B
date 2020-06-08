@@ -1,0 +1,73 @@
+﻿html
+{
+    height:100%;
+}
+body
+{
+    font-size:10px;
+    font-family: Arial, Helvetica, Verdana, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+h1,h2,h3,h4,h5,h6,h7
+{
+    color:#000000;
+    font-size:100%;
+    font-weight:normal;
+    margin:0px;
+}
+select, input, textarea
+{
+    font-size:99%;
+    font-family: Arial, Helvetica, Verdana, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+img
+{
+    vertical-align:bottom;
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,h7
+{
+    margin:0px;
+    padding:0px;
+}
+a
+{
+    color:#000000;
+    text-decoration:underline;
+}
+a:visited
+{
+    color:#000000;
+    text-decoration:underline;
+}
+a:hover
+{
+    color:#3333ff;
+    text-decoration:underline;
+}
+strong
+{
+    font-weight:normal;
+}
+/* ================================================ */
+/* ul,liタグ */
+/* ================================================ */
+ul,li
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+/* ================================================ */
+/* dl,dt,ddタグ */
+/* ================================================ */
+dl,dt,dd
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
