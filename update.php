@@ -41,7 +41,7 @@
 					if(idx != -1) {
 						message = 'アップデートが完了しました。'
 					}
-					console.log(message);
+					//console.log(message);
 					$('#updated').html(message);
 				},  
 				error: function(XMLHttpRequest, textStatus, errorThrown){  
