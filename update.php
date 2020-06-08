@@ -37,7 +37,7 @@
 						message = '既に最新です。'
 					}
 					
-					idx = data.indexOf("updating");
+					idx = data.indexOf("Updating");
 					if(idx != -1) {
 						message = 'アップデートが完了しました。'
 					}
