@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-
+/*
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 		exec('sudo -u pi git pull origin master', $output, $param);
@@ -15,7 +15,7 @@
 	];
 	
 	$url = 'https://www.google.co.jp';
-	
+*/
 ?>
 
 <html lang="ja">
@@ -29,12 +29,38 @@
 	<!-- =========================================================== -->
 	<script src="js/script.js"></script>
 	<script src="js/lng-ja.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
 
 	<!-- =========================================================== -->
 	<!-- ▼共通の装飾（配色や余白などは、このCSSソースをご覧下さい） -->
 	<!-- =========================================================== -->
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/common.css">
+	<script>
+		function update()
+		{
+			if(!confirm('システムアップデートをかけてよろしいですか？')) return false;
+			
+			$.ajax({  
+				type: "GET",  
+				url: "git_pull.php",
+				
+				success: function(data,dataType) {
+					console.log(data);
+				},  
+				error: function(XMLHttpRequest, textStatus, errorThrown){  
+					//失敗した時の処理
+					alert('error');
+				},
+				complete: function(XMLHttpRequest){
+					alert('complete');
+				}
+			});
+		}
+
+
+
+	</script>
 
 </head>
 <body>
@@ -55,9 +81,12 @@
 			<tbody>
 			<tr><td><p id="pageTableCaption">システム更新kkkk<p></td></tr>
 			<tr><td>
+				<button class="selectBtnA00 btnUpdate" onClick="update()">アップデート</button>
+				<!--
 				<form action="update.php" method="post">
 				<button class="selectBtnA00 btnUpdate" type="submit">アップデート</button>
 				</form>
+	-->
 			</td></tr>
 			</tbody>
 		</table>
