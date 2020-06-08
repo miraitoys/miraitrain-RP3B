@@ -43,10 +43,6 @@
 					}
 					console.log(message);
 					$('#updated').html(message);
-
-					if(message == 'アップデートに失敗しました') {
-						$('#update').css('display', 'block');
-					}
 				},  
 				error: function(XMLHttpRequest, textStatus, errorThrown){  
 					//失敗した時の処理
@@ -55,6 +51,7 @@
 				complete: function(XMLHttpRequest){
 					$('#updating').css('display', 'none');
 					$('#updated').css('display', 'block');
+					$('#update').css('display', 'block');
 				}
 			});
 		}
