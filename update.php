@@ -79,7 +79,7 @@
 
 		<table class="pageTable">
 			<tbody>
-			<tr><td><p id="pageTableCaption">システム更新kkkk<p></td></tr>
+			<tr><td><p id="pageTableCaption">システム更新<p></td></tr>
 			<tr><td>
 				<button class="selectBtnA00 btnUpdate" onClick="update()">アップデート</button>
 				<!--
