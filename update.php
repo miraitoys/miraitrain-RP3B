@@ -1,8 +1,17 @@
 <!DOCTYPE html>
+<?php
+
+	if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+		echo 'postです';
+
+	}
+?>
+
 <html lang="ja">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>MIRAITOY WEBコンソール</title>
+	<title>MIRAITOY WEBコンソール - システム更新</title>
 	<meta name="viewport" content="initial-scale=1">
 
 	<!-- =========================================================== -->
@@ -34,14 +43,12 @@
 
 		<table class="pageTable">
 			<tbody>
-			<tr><td><p id="pageTableCaption">- WEBコンソール -<p></td></tr>
+			<tr><td><p id="pageTableCaption">システム更新<p></td></tr>
 			<tr><td>
-				<select>
-					<option>Japanese（日本語）</option>
-				</select>
+				<form action="update.php" method="post">
+				<button class="selectBtnA00 btnUpdate" type="submit">アップデート</button>
+				</form>
 			</td></tr>
-			<tr><td><a href="console.php" class="selectBtnA00">スタート</a></td></tr>
-			<tr><td><p id="pageIO"><a href="">入出力設定</a>／<a href="update.php">システム更新</a></p></td></tr>
 			</tbody>
 		</table>
 
