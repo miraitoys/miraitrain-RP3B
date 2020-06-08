@@ -46,7 +46,7 @@
 
 		<table class="pageTable">
 			<tbody>
-			<tr><td><p id="pageTableCaption">システム更新bbbbbbb<p></td></tr>
+			<tr><td><p id="pageTableCaption">システム更新cccc<p></td></tr>
 			<tr><td>
 				<form action="update.php" method="post">
 				<button class="selectBtnA00 btnUpdate" type="submit">アップデート</button>
