@@ -5,8 +5,7 @@
 
 		echo 'postですyoaaaaa';
 		$path = 'sh deploy.sh';
-		$error = shell_exec($path);
-		echo $error;
+		exec($path);
 
 	}
 ?>
