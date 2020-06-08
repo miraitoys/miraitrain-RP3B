@@ -4,8 +4,7 @@
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 		echo 'postですyoaaaaa';
-		$path = 'sh deploy.sh';
-		exec($path);
+		exec('git pull origin master');
 
 	}
 ?>
