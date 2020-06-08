@@ -265,6 +265,19 @@ body{
 	cursor: pointer;
 }
 
+.alert {
+	font-weight: bold;
+	color: red;
+}
+
+#updating {
+	display: none;
+}
+
+#updated {
+	display: none;
+}
+
 
 /* ======================================= */
 /* ▼横幅600px～849pxの場合に適用されるCSS */	/* ※この部分の解説は、記事4ページ目をご参照下さい。 */
