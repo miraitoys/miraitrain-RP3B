@@ -4,7 +4,7 @@
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 		echo 'postですyoaaaaa';
-		$path = 'sudo sh deploy.sh';
+		$path = 'sh deploy.sh';
 		$error = shell_exec($path);
 		echo $error;
 
