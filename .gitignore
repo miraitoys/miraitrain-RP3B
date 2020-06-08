@@ -1,2 +1,5 @@
 *.pyc
 *.txt
+Vagrantfile
+package_miraitoy.box
+.vagrant/*

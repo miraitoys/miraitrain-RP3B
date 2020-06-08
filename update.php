@@ -3,7 +3,10 @@
 
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-		echo 'postです';
+		echo 'postですyoaaaaa';
+		$path = 'sudo sh deploy.sh';
+		$error = shell_exec($path);
+		echo $error;
 
 	}
 ?>
