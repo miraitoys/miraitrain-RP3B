@@ -3,10 +3,19 @@
 
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-		echo 'postですyoaaaaa';
-		exec('git pull origin master');
-
+		exec('sudo -u pi git pull origin master', $output, $param);
+		var_dump($output, $param);
 	}
+	
+	$options = [
+		'http' => [
+			'method' => 'get',
+			'timeout' => 3
+		]
+	];
+	
+	$url = 'https://www.google.co.jp';
+	
 ?>
 
 <html lang="ja">
