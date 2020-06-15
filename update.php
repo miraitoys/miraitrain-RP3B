@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>MIRAITOY WEBコンソール - システム更新</title>
+	<title>MIRAITOY ミライエディタ - システム更新</title>
 	<meta name="viewport" content="initial-scale=1">
 
 	<!-- =========================================================== -->
@@ -64,7 +64,7 @@
 <body>
 	<div class="pageHeader">
 		<h1 class="logo"><img src="images/logo.png" alt="Fame Toys" /></h1>
-		<p>WEBコンソール</p>
+		<p>ミライエディタ</p>
 	</div>
 	<div class="headerLine">&nbsp;</div>
 	<div class="headerLanguage">Japanese（日本語）</div>
@@ -100,8 +100,8 @@
 	<!-- ======================= -->
 
 	<div class="pageFooter">
-		<div>ver.1.1.0</div>
-		<footer class="pageFooterRights">Copyright© 2019 MIRAITOY®</footer>
+		<div>ver.2.1.1</div>
+		<footer class="pageFooterRights">Copyright© 2019 MIRAITOYS®</footer>
 	</div>
 
 </body>
