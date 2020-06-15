@@ -173,7 +173,7 @@
 <body>
 	<div class="pageHeader">
 		<h1 class="logo"><img src="images/logo.png" /></h1>
-		<p>WEBコンソール</p>
+		<p>ミライエディタ</p>
 	</div>
 	<div class="headerLine">&nbsp;</div>
 	<div class="headerLanguage">
@@ -306,8 +306,8 @@
 
 	</div>
 	<div class="pageFooter">
-		<div>ver.1.0.0</div>
-		<footer class="pageFooterRights">Copyright© 2019 miraitoy®</footer>
+		<div>ver.2.1.1</div>
+		<footer class="pageFooterRights">Copyright© 2019 MIRAITOYS®</footer>
 	</div>
 	<input type="hidden" id="status" value="0">
 
