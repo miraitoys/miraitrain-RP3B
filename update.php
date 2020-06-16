@@ -92,7 +92,7 @@
 	-->
 			</td></tr>
 			<tr><td>&nbsp;</td></tr>
-			<tr><td><a href="/">TOPへ戻る</a></td></tr>
+			<tr><td><a href="index.html">TOPへ戻る</a></td></tr>
 			</tbody>
 		</table>
 
