@@ -91,6 +91,7 @@
 				</form>
 	-->
 			</td></tr>
+			<tr><td><a href="../">TOPへ戻る</a></td></tr>
 			</tbody>
 		</table>
 
