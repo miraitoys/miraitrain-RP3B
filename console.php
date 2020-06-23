@@ -213,11 +213,13 @@
 						<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',FC06());" class="selectBtnA01">LEDつける</a></li>
 						<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',FC07());" class="selectBtnA01">LEDけす</a></li>
 					</ul>
+					<!--
 					<h3>スピーカー</h3>
 					<ul class="functionArea">
 						<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',FC08());" class="selectBtnA01">スピーカーせんげん</a></li>
 						<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',FC09());" class="selectBtnA01">スピーカーならす</a></li>
 					</ul>
+					-->
 				</div>
 
 			</div>
@@ -239,7 +241,7 @@
 					<ul class="functionArea">
 						<!--<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',SET01());" class="selectBtnA01">モータースライダー</a></li>-->
 						<li><a href="javascript:" onclick="MJ_INSERT_TXTAREA('txt_program_area',SET02());" class="selectBtnA01">ゴー＆ストップ</a></li>
-						<li><a href="livecamera.php" target="_blank" class="selectBtnA01">ライブカメラ</a></li>
+						<!--<li><a href="livecamera.php" target="_blank" class="selectBtnA01">ライブカメラ</a></li>-->
 
 					</ul>
 				</div>
