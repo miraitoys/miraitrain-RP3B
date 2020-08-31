@@ -25,8 +25,8 @@ function FC02(){
 function FC03(){
 	
 	var str;
-	str = "	motorfront.start(1,100)\n";
-	str += "	motorRear.start(1,100)\n";
+	str = "	motorfront.start(1,80)\n";
+	str += "	motorRear.start(1,80)\n";
 	
 	return str;
 }
@@ -111,8 +111,8 @@ function SET02(){
 	str = "def main(miraitoys,time):\n";
 	str += "	motorfront = miraitoys.MotorDriver(1)\n";
 	str += "	motorRear  = miraitoys.MotorDriver(2)\n";
-	str += "	motorfront.start(1,100)\n";
-	str += "	motorRear.start(1,100)\n";
+	str += "	motorfront.start(1,80)\n";
+	str += "	motorRear.start(1,80)\n";
 	str += "	time.sleep(5)\n";
 	str += "	motorfront.stop()\n";
 	str += "	motorRear.stop()\n";
