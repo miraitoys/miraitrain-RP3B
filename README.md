@@ -1,4 +1,4 @@
-# miraitoy-model-train-RP3BPlus-v1
+# miraitoys-model-train-RP3BPlus-v1
 ミライトイ用のソースコードです。
 hatは、waveshareのmotor driver hatを使用します。
 
@@ -38,12 +38,12 @@ echo 0 | sudo tee /sys/devices/platform/soc/3f980000.usb/buspower
 #### 関数宣言
 必ず先頭行に以下の宣言を書くこと
 ```
-def main(miraitoy,time):
+def main(miraitoys,time):
 ```
 
 例）
 ```
-def main(miraitoy,time):
+def main(miraitoys,time):
   (処理を書く)
 ```
 宣言の下はタブを一つ必ずあける事。
@@ -55,7 +55,7 @@ def main(miraitoy,time):
 ```
 #モーターをセット
 #()の中に1か2を入れる。1は前のモーター、2は後ろのモーター  
-motor = miraitoy.MotorDriver(1)  
+motor = miraitoys.MotorDriver(1)  
 
 #モーターを発進
 #()の中、左側の引数は、1は前進、2は後進。右側の引数はスピード。0〜100まで指定可。
@@ -79,7 +79,7 @@ motor.stop()
 ```
 #モーターをセット
 #()の中に1か2を入れる。1は前のモーター、2は後ろのモーター  
-motor = miraitoy.Motor(1)  
+motor = miraitoys.Motor(1)  
 
 #モーターを発進
 #()の中、左側の引数は、1は前進、2は後進。右側の引数はスピード。0〜99まで指定可。
@@ -94,7 +94,7 @@ motor.stop()
 ```
 #LEDを利用するポート番号をセット
 #()の中にポート番号を入れる
-led = miraitoy.Led(13)
+led = miraitoys.Led(13)
 
 #LEDを光らす
 led.on()
@@ -108,7 +108,7 @@ led.off()
 ```
 #明暗センサーを利用するポート番号をセット
 #()の中にポート番号を入れる
-sensor = miraitoy.LightSensor(14)
+sensor = miraitoys.LightSensor(14)
 
 #明暗の値を取得
 #1はオン、0はオフ
@@ -120,7 +120,7 @@ x = sensor.get()
 ```
 #圧電スピーカーを利用するポート番号をセット
 #()の中にポート番号を入れる
-speaker = miraitoy.Speaker(11)
+speaker = miraitoys.Speaker(11)
 
 #音を鳴らす
 #()内の値は音域。0〜100までセット可能。（ただし、圧電スピーカーの種類によって変わる）
@@ -133,7 +133,7 @@ speaker.off()
 ### 警笛
 例）
 ```
-horn = miraitoy.Horn()
+horn = miraitoys.Horn()
 horn.on()
 ```
 
