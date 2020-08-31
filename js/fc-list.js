@@ -109,8 +109,8 @@ function SET02(){
 	
 	var str;
 	str = "def main(miraitoys,time):\n";
-	str += "	motorfront = miraitoys.Motor(1)\n";
-	str += "	motorRear  = miraitoys.Motor(2)\n";
+	str += "	motorfront = miraitoys.MotorDriver(1)\n";
+	str += "	motorRear  = miraitoys.MotorDriver(2)\n";
 	str += "	motorfront.start(1,100)\n";
 	str += "	motorRear.start(1,100)\n";
 	str += "	time.sleep(5)\n";
