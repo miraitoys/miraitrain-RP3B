@@ -1,7 +1,7 @@
 function FC00(){
 	
 	var str;
-	str = "def main(miraitoy,time):\n";
+	str = "def main(miraitoys,time):\n";
 	
 	return str;
 }
@@ -17,8 +17,8 @@ function FC02(){
 	
 	var str;
 	var str;
-	str = "	motorfront = miraitoy.MotorDriver(1)\n";
-	str += "	motorRear  = miraitoy.MotorDriver(2)\n";
+	str = "	motorfront = miraitoys.MotorDriver(1)\n";
+	str += "	motorRear  = miraitoys.MotorDriver(2)\n";
 	
 	return str;
 }
@@ -42,7 +42,7 @@ function FC04(){
 function FC05(){
 	
 	var str;
-	str = "	led01 = miraitoy.Led(14)\n";
+	str = "	led01 = miraitoys.Led(14)\n";
 	
 	return str;
 }
@@ -66,7 +66,7 @@ function FC07(){
 function FC08(){
 	
 	var str;
-	str = "	horn = miraitoy.Horn()\n";
+	str = "	horn = miraitoys.Horn()\n";
 	
 	return str;
 }
@@ -108,9 +108,9 @@ function SET01(){
 function SET02(){
 	
 	var str;
-	str = "def main(miraitoi,time):\n";
-	str += "	motorfront = miraitoy.Motor(1)\n";
-	str += "	motorRear  = miraitoy.Motor(2)\n";
+	str = "def main(miraitoys,time):\n";
+	str += "	motorfront = miraitoys.Motor(1)\n";
+	str += "	motorRear  = miraitoys.Motor(2)\n";
 	str += "	motorfront.start(1,100)\n";
 	str += "	motorRear.start(1,100)\n";
 	str += "	time.sleep(5)\n";
